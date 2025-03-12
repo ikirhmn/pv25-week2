@@ -73,7 +73,8 @@ class RegistrationForm(QDialog):
 
         countryLabel = QLabel("Country:")
         self.countryComboBox = QComboBox()
-        self.countryComboBox.addItems(["Select country", "Indonesia", "America", "Japan", "Australia"])
+        self.countryComboBox.addItems(["Select country", "Indonesia", "America", "Japan", "Australia, Malaysia, Thailand, Korea, Arab Saudi"])
+
 
         formLayout = QFormLayout()
         formLayout.addRow(fullNameLabel, self.fullNameLineEdit)
